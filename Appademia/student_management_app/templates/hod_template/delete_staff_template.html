@@ -1,0 +1,16 @@
+<!-- delete_staff_template.html -->
+
+{% extends 'hod_template/base_template.html' %}
+{% block page_title %}
+Delete Staff
+{% endblock page_title %}
+{% block main_content %}
+<div class="container mt-5">
+    <h3>Confirm Delete</h3>
+    <p>Are you sure you want to delete {{ staff.admin.username }}?</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Confirm Delete</button>
+    </form>
+</div>
+{% endblock main_content %}

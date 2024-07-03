@@ -6,7 +6,6 @@
   <h1>Appademia - Student Management System</h1>
 
   <p>Appademia is a web-based Student Management System built using Django. It provides a platform for managing courses, students, attendance, results, and more.</p>
-  <p>This Django Project is Build for Semester 4 Software Project(SP) Subject Final Submmission.</p>
 
   <h2>Features</h2>
 
@@ -16,13 +15,6 @@
     <li><strong>Attendance Management:</strong> Keep track of student attendance for each course.</li>
     <li><strong>Result Management:</strong> Enter and update student results for various courses.</li>
     <li><strong>Document Upload:</strong> Upload and manage course materials and documentation.</li>
-  </ul>
-
-  <h2>Developers</h2>
-
-  <ul>
-    <li><a href="https://github.com/karangondaliya">Karan Gondaliya</a></li>
-    <li><a href="https://github.com/GhanshyamThakkar2">Jobanputra Ghanshyam</a></li>
   </ul>
 
   <h2>Installation</h2>
